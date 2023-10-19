@@ -1,19 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>画廊 | 日本旅行社</title>
+    <title>旅游路线</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="script.js"></script>
 </head>
-<body class="bg-white text-red-600">
-    <!-- Add content for 'Gallery' page here -->
-    <h1 class="title">画廊</h1>
-    <p>浏览我们的画廊，一睹日本美丽的风景、美味的食物和令人兴奋的活动。</p>
-    <div id="gallery" class="max-w rounded">
-        <!-- Images will be added here -->
-    </div>
-    <h2 class="title">主要旅游目的地</h2>
-    <p>了解更多关于日本主要旅游目的地的信息，包括他们的风景、餐饮和活动。</p>
+<body class="bg-white">
+    <nav class="bg-gray-800 text-white py-4">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="flex justify-between items-center">
+            <div>
+              <i class="fa-solid fa-umbrella-beach mr-2"></i>
+              <span class="font-bold text-xl">小黄日本旅行社</span>
+            </div>
+            <div>
+              <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:bg-gray-700 px-4 py-2 rounded-md">首页</a></li>
+                <li><a href="services.html" class="hover:bg-gray-700 px-4 py-2 rounded-md">旅游目的地</a></li>
+                <li><a href="gallery.html" class="hover:bg-gray-700 px-4 py-2 rounded-md">旅游路线</a></li>
+                <li><a href="contact.html" class="hover:bg-gray-700 px-4 py-2 rounded-md">联系我们</a></li>
+              </ul>
+            </div>
+            <div>
+              <input type="text" placeholder="搜索" class="bg-gray-700 text-white px-4 py-2 rounded-md">
+            </div>
+          </div>
+        </div>
+      </nav>
+    <ol><li><div class="max-w-7xl mx-auto py-10 px-4">
+        <h2 class="text-2xl font-bold mb-10">旅游路线列表</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://source.unsplash.com/300x200/?Japan,Route,1" alt="" class="w-full h-40 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">东京一日游</h3>
+              <p class="text-gray-500 text-sm mb-4">体验东京的悠久历史和现代化都市风光。</p>
+              <a href="#" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">查看详情</a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://source.unsplash.com/300x200/?Japan,Route,2" alt="" class="w-full h-40 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">京都文化之旅</h3>
+              <p class="text-gray-500 text-sm mb-4">品味日本传统文化，游览京都的寺庙和花园。</p>
+              <a href="#" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">查看详情</a>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://source.unsplash.com/300x200/?Japan,Route,3" alt="" class="w-full h-40 object-cover">
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">大阪购物之旅</h3>
+              <p class="text-gray-500 text-sm mb-4">畅游大阪的购物中心和奢华百货商店。</p>
+              <a href="#" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">查看详情</a>
+            </div>
+          </div>
+        </div>
+      </div></li><li><div class="max-w-7xl mx-auto py-10 px-4">
+        <h1 class="text-2xl font-bold mb-10">旅游路线详情</h1>
+        <div class="rounded overflow-hidden shadow-lg">
+          <img class="w-full" src="https://source.unsplash.com/800x400/?travel,route,10" alt="">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">日本古都京都一日游</div>
+            <p class="text-gray-700 text-base">
+              在这个行程中，您将有机会参观京都的著名寺庙、庭园和历史遗址。
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <h2 class="text-lg font-bold mb-2">行程安排</h2>
+            <ul class="list-disc pl-5">
+              <li>上午9点：参观清水寺</li>
+              <li>中午12点：享用传统日本料理</li>
+              <li>下午2点：游览金阁寺</li>
+              <li>下午4点：参观京都御所</li>
+            </ul>
+          </div>
+          <div class="px-6 py-4">
+            <h2 class="text-lg font-bold mb-2">费用</h2>
+            <p class="text-gray-700 text-base">每人2000元</p>
+          </div>
+          <div class="px-6 py-4">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">立即预订</button>
+          </div>
+        </div>
+      </div></li><li><div class="max-w-7xl mx-auto py-10 px-4">
+        <div class="text-2xl font-bold mb-10">搜索功能</div>
+        <div class="mb-4">
+          <input type="text" class="border border-gray-300 rounded-lg py-2 px-4 w-full" placeholder="输入关键词">
+        </div>
+        <button class="bg-blue-500 text-white rounded-lg py-2 px-4">搜索</button>
+      </div></li><li><div class="max-w-7xl mx-auto py-10 px-4">
+        <h1 class="text-2xl font-bold mb-10">热门路线推荐</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/300x200/?japan,1" class="rounded-t-lg" width="300" height="200">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">东京之旅</h2>
+              <p class="text-sm mb-4">领略东京丰富多样的文化，体验传统与现代交融的都市魅力。</p>
+              <button class="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-full">查看详情</button>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/300x200/?japan,2" class="rounded-t-lg" width="300" height="200">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">京都古城之旅</h2>
+              <p class="text-sm mb-4">探索京都古老的庙宇和日本传统的艺术品，感受历史与宗教的氛围。</p>
+              <button class="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-full">查看详情</button>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/300x200/?japan,3" class="rounded-t-lg" width="300" height="200">
+            <div class="p-4">
+              <h2 class="text-xl font-bold mb-2">大阪美食之旅</h2>
+              <p class="text-sm mb-4">品尝大阪独特的日本美食文化，尝遍各种新鲜美味的料理。</p>
+              <button class="py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white rounded-full">查看详情</button>
+            </div>
+          </div>
+        </div>
+      </div></li>
+      <li><div class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto py-10 px-4">
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <h1 class="text-2xl font-bold mb-10">底部导航栏</h1>
+              <ul class="list-none">
+                <li><a href="#" class="text-white">关于我们</a></li>
+                <li><a href="#" class="text-white">常见问题</a></li>
+                <li><a href="#" class="text-white">隐私政策</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="text-lg font-bold mb-4">版权信息</h2>
+              <p class="text-gray-300">© 2021 小黄日本旅行社. 保留所有权利</p>
+              <p class="text-gray-300">使用条款</p>
+            </div>
+            <div>
+              <h2 class="text-lg font-bold mb-4">联系方式</h2>
+              <p class="text-gray-300">地址：日本东京市中央区XX街道XX号</p>
+              <p class="text-gray-300">电话：+81 123-456-7890</p>
+              <p class="text-gray-300">电子邮件：info@example.com</p>
+            </div>
+          </div>
+        </div>
+      </div></li></ol>
 </body>
 </html>

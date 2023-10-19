@@ -5,33 +5,84 @@
     <title>联系我们 | 日本旅行社</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="script.js"></script>
 </head>
-<body class="bg-white text-red-600">
-    <!-- Add content for 'Contact Us' page here -->
-    <h1 class="title">Contact Us</h1>
-    <h1 class="title">联系我们</h1>
-    <p>You can reach us at info@japantravel.com or call us at 123-456-7890.</p>
-    <p>您可以通过info@japantravel.com或拨打123-456-7890联系我们。</p>
-    <h2 class="title">Book Your Trip</h2>
-    <h2 class="title">预订您的旅行</h2>
-    <form id="bookingForm" class="max-w rounded">
-        <label for="destination">Destination:</label>
-        <label for="destination">目的地:</label>
-        <input type="text" id="destination" name="destination">
-        <label for="dates">Dates:</label>
-        <label for="dates">日期:</label>
-        <input type="text" id="dates" name="dates">
-        <label for="package">Package:</label>
-        <label for="package">套餐:</label>
-        <select id="package" name="package">
-            <option value="group">Group Travel</option>
-            <option value="group">团体旅行</option>
-            <option value="independent">Independent Travel</option>
-            <option value="independent">独立旅行</option>
-        </select>
-        <input type="submit" value="Book Now">
-        <input type="submit" value="立即预订">
-    </form>
+<body class="bg-white">
+    <ol><li>
+        <!-- 联系方式模块 -->
+        <div class="max-w-7xl mx-auto py-10 px-4">
+          <h1 class="text-2xl font-bold mb-10">联系方式</h1>
+          <div class="flex flex-col md:flex-row md:items-center">
+            <div class="md:w-1/2">
+              <p class="text-lg mb-4">公司地址:</p>
+              <p class="text-gray-500">日本东京都台东区浅草1-2-3</p>
+            </div>
+            <div class="md:w-1/2 md:pl-8">
+              <p class="text-lg mb-4">电话号码:</p>
+              <p class="text-gray-500">+81 123 456 789</p>
+              <p class="text-lg mb-4 mt-6">电子邮件地址:</p>
+              <p class="text-gray-500">info@xiaohuangjapan.com</p>
+            </div>
+          </div>
+          <div class="mt-8">
+            <p class="text-lg mb-4">营业时间:</p>
+            <p class="text-gray-500">周一至周五：9:00 AM - 6:00 PM</p>
+            <p class="text-gray-500">周六至周日：10:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+        </li><li><div class="max-w-7xl mx-auto py-10 px-4">
+          <h2 class="text-2xl font-bold mb-10">在线留言</h2>
+          <form class="">
+              <div class="">
+                  <label for="name" class="block text-gray-700 text-sm font-bold mb-2">姓名</label>
+                  <input type="text" id="name" class="w-full px-3 py-2 text-gray-700 border rounded-md focus:outline-none focus:border-blue-500">
+              </div>
+              <div class="mt-4">
+                  <label for="email" class="block text-gray-700 text-sm font-bold mb-2">电子邮件地址</label>
+                  <input type="email" id="email" class="w-full px-3 py-2 text-gray-700 border rounded-md focus:outline-none focus:border-blue-500">
+              </div>
+              <div class="mt-4">
+                  <label for="message" class="block text-gray-700 text-sm font-bold mb-2">留言内容</label>
+                  <textarea id="message" class="w-full px-3 py-2 text-gray-700 border rounded-md focus:outline-none focus:border-blue-500 dom-select" rows="4"></textarea>
+              </div>
+              <div class="mt-6">
+                  <button type="submit" class="px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600">提交</button>
+              </div>
+          </form>
+        </div></li>
+        <div class="max-w-7xl mx-auto py-10 px-4">
+          <h2 class="text-2xl font-bold mb-10">社交媒体链接</h2>
+          <div class="mt-2 flex justify-center">
+            <a href="#" class="text-pink-500 hover:underline">
+              <i class="fa-solid fa-instagram"></i>
+              访问我们的Instagram页面
+            </a>
+          </div>
+        </div>
+        <li><div class="bg-gray-800 text-white">
+            <div class="max-w-7xl mx-auto py-10 px-4">
+              <div class="grid grid-cols-3 gap-4">
+                <div>
+                  <h1 class="text-2xl font-bold mb-10">底部导航栏</h1>
+                  <ul class="list-none">
+                    <li><a href="#" class="text-white">关于我们</a></li>
+                    <li><a href="#" class="text-white">常见问题</a></li>
+                    <li><a href="#" class="text-white">隐私政策</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h2 class="text-lg font-bold mb-4">版权信息</h2>
+                  <p class="text-gray-300">© 2021 小黄日本旅行社. 保留所有权利</p>
+                  <p class="text-gray-300">使用条款</p>
+                </div>
+                <div>
+                  <h2 class="text-lg font-bold mb-4">联系方式</h2>
+                  <p class="text-gray-300">地址：日本东京市中央区XX街道XX号</p>
+                  <p class="text-gray-300">电话：+81 123-456-7890</p>
+                  <p class="text-gray-300">电子邮件：info@example.com</p>
+                </div>
+              </div>
+            </div>
+          </div></li>
+        </ol>
 </body>
 </html>
