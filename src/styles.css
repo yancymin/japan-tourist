@@ -17,6 +17,7 @@ form {
     height: 200px;
     object-fit: cover;
     margin: 10px;
+    border-radius: 10px; /* Add rounded edges */
 }
 @media (max-width: 768px) {
     #gallery {
@@ -36,4 +37,11 @@ form input, form select {
 img {
     max-width: 100%;
     height: auto;
+}
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+.max-w {
+    max-width: 100%;
 }

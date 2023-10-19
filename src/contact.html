@@ -2,26 +2,36 @@
 <html>
 <head>
     <title>Contact Us | Japanese Travel Agency</title>
+    <title>联系我们 | 日本旅行社</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="script.js"></script>
 </head>
 <body class="bg-white text-red-600">
     <!-- Add content for 'Contact Us' page here -->
-    <h1>Contact Us</h1>
+    <h1 class="title">Contact Us</h1>
+    <h1 class="title">联系我们</h1>
     <p>You can reach us at info@japantravel.com or call us at 123-456-7890.</p>
-    <h2>Book Your Trip</h2>
-    <form id="bookingForm">
+    <p>您可以通过info@japantravel.com或拨打123-456-7890联系我们。</p>
+    <h2 class="title">Book Your Trip</h2>
+    <h2 class="title">预订您的旅行</h2>
+    <form id="bookingForm" class="max-w rounded">
         <label for="destination">Destination:</label>
+        <label for="destination">目的地:</label>
         <input type="text" id="destination" name="destination">
         <label for="dates">Dates:</label>
+        <label for="dates">日期:</label>
         <input type="text" id="dates" name="dates">
         <label for="package">Package:</label>
+        <label for="package">套餐:</label>
         <select id="package" name="package">
             <option value="group">Group Travel</option>
+            <option value="group">团体旅行</option>
             <option value="independent">Independent Travel</option>
+            <option value="independent">独立旅行</option>
         </select>
         <input type="submit" value="Book Now">
+        <input type="submit" value="立即预订">
     </form>
 </body>
 </html>
