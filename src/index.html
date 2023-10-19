@@ -7,39 +7,146 @@
     <script src="script.js"></script>
 </head>
 <body class="bg-white text-red-600">
-    <nav class="flex justify-between p-5">
-        <a href="index.html" class="font-bold">Home</a>
+  <ol><li><div>
+  <nav class="bg-gray-800 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between items-center">
         <div>
-            <a href="about.html" class="mx-2">About</a>
-            <a href="services.html" class="mx-2">Services</a>
-            <a href="gallery.html" class="mx-2">Gallery</a>
-            <a href="contact.html" class="mx-2">Contact Us</a>
+          <i class="fa-solid fa-umbrella-beach mr-2"></i>
+          <span class="font-bold text-xl">小黄日本旅行社</span>
         </div>
-    </nav>
-    <h1 class="text-4xl font-bold text-center py-5">Welcome to our Japanese Travel Agency</h1>
-    <div class="flex justify-center">
-        <form id="userForm" class="bg-white p-5 rounded shadow-md">
-            <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
-            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-            <label for="email" class="block text-sm font-medium text-gray-700 mt-3">Email:</label>
-            <input type="text" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-            <input type="submit" value="Submit" class="mt-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        </form>
+        <div>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:bg-gray-700 px-4 py-2">首页</a></li>
+            <li><a href="#" class="hover:bg-gray-700 px-4 py-2">旅游目的地</a></li>
+            <li><a href="#" class="hover:bg-gray-700 px-4 py-2">旅游路线</a></li>
+            <li><a href="#" class="hover:bg-gray-700 px-4 py-2">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <input type="text" placeholder="搜索" class="bg-gray-700 text-white px-4 py-2 rounded-md">
+        </div>
+      </div>
     </div>
-    <div id="gallery" class="grid grid-cols-4 gap-4 p-5">
-        <!-- Images will be added here -->
+  </nav>
+</div></li><li><div class="max-w-7xl mx-auto">
+  <div class="bg-gray-100 rounded-lg overflow-hidden">
+    <div class="relative">
+      <img src="https://source.unsplash.com/1200x800/?travel,destination,1" alt="" class="h-96 w-full object-cover">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="absolute inset-0 flex items-center justify-center">
+        <div class="text-white text-center">
+          <h2 class="text-4xl font-bold mb-4">东京</h2>
+          <p class="text-xl">探索日本首都的光怪陆离</p>
+          <a href="#" class="mt-4 inline-block bg-orange-600 hover:bg-orange-700 text-white py-2 px-6 rounded-full">了解更多</a>
+        </div>
+      </div>
     </div>
-    <div class="bg-white p-5 rounded shadow-md mt-5">
-        <h2 class="text-2xl font-bold">About Us</h2>
-        <p class="mt-2">We are a leading travel agency specializing in tours to Japan.</p>
+  </div>
+</div></li><li><div class="max-w-7xl mx-auto py-10 px-4">
+  <h1 class="text-2xl font-bold mb-10">热门旅游目的地</h1>
+  <div class="grid grid-cols-3 gap-4">
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Japan,travel,0" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">东京</h2>
+      </div>
+    </a>
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Kyoto,travel,1" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">京都</h2>
+      </div>
+    </a>
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Osaka,travel,2" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">大阪</h2>
+      </div>
+    </a>
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Hokkaido,travel,3" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">北海道</h2>
+      </div>
+    </a>
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Nara,travel,4" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">奈良</h2>
+      </div>
+    </a>
+    <a href="#" class="relative">
+      <img src="https://source.unsplash.com/500x300/?Hiroshima,travel,5" class="w-full h-64 object-cover rounded-lg transition duration-300 transform hover:scale-105" alt="">
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
+        <h2 class="text-xl font-bold text-white">广岛</h2>
+      </div>
+    </a>
+  </div>
+</div></li><li><div class="max-w-7xl mx-auto py-10 px-4">
+    <h1 class="text-2xl font-bold mb-10">特别推荐线路</h1>
+    <div class="grid grid-cols-4 gap-8">
+        <div class="bg-white rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/400x300/?japan,travel,0">
+            <div class="p-4">
+                <h2 class="text-xl font-semibold mb-2">东京之旅</h2>
+                <p class="text-gray-600">¥2000/人起</p>
+                <p class="text-gray-600">东京，日本首都，以其现代化的建筑、古老的庙宇和繁华的购物区而闻名。</p>
+                <a href="#" class="text-blue-500 hover:underline">了解更多</a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/400x300/?osaka,travel,1">
+            <div class="p-4">
+                <h2 class="text-xl font-semibold mb-2">大阪美食之旅</h2>
+                <p class="text-gray-600">¥1800/人起</p>
+                <p class="text-gray-600">品尝大阪最好吃的美食，体验道地的日本文化。</p>
+                <a href="#" class="text-blue-500 hover:underline">了解更多</a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/400x300/?kyoto,travel,2">
+            <div class="p-4">
+                <h2 class="text-xl font-semibold mb-2">京都之旅</h2>
+                <p class="text-gray-600">¥2200/人起</p>
+                <p class="text-gray-600">探索日本古老文化的传统庭院、神社和寺庙。</p>
+                <a href="#" class="text-blue-500 hover:underline">了解更多</a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg">
+            <img src="https://source.unsplash.com/400x300/?hokkaido,travel,3">
+            <div class="p-4">
+                <h2 class="text-xl font-semibold mb-2">北海道自然游</h2>
+                <p class="text-gray-600">¥2500/人起</p>
+                <p class="text-gray-600">欣赏北海道壮丽的自然景观，体验冰雪世界和温泉。</p>
+                <a href="#" class="text-blue-500 hover:underline">了解更多</a>
+            </div>
+        </div>
     </div>
-    <div class="bg-white p-5 rounded shadow-md mt-5">
-        <h2 class="text-2xl font-bold">Our Services</h2>
-        <p class="mt-2">We offer a wide range of services including guided tours, hotel booking, and more.</p>
+</div></li><li><div class="bg-gray-800 text-white">
+  <div class="max-w-7xl mx-auto py-10 px-4">
+    <div class="grid grid-cols-3 gap-4">
+      <div>
+        <h1 class="text-2xl font-bold mb-10">底部导航栏</h1>
+        <ul class="list-none">
+          <li><a href="#" class="text-white">关于我们</a></li>
+          <li><a href="#" class="text-white">常见问题</a></li>
+          <li><a href="#" class="text-white">隐私政策</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold mb-4">版权信息</h2>
+        <p class="text-gray-300">© 2021 小黄日本旅行社. 保留所有权利</p>
+        <p class="text-gray-300">使用条款</p>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold mb-4">联系方式</h2>
+        <p class="text-gray-300">地址：日本东京市中央区XX街道XX号</p>
+        <p class="text-gray-300">电话：+81 123-456-7890</p>
+        <p class="text-gray-300">电子邮件：info@example.com</p>
+      </div>
     </div>
-    <div class="bg-white p-5 rounded shadow-md mt-5">
-        <h2 class="text-2xl font-bold">Contact Us</h2>
-        <p class="mt-2">You can reach us at info@japantravel.com or call us at 123-456-7890.</p>
-    </div>
+  </div>
+</div></li></ol>
 </body>
 </html>
