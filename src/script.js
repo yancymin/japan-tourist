@@ -3,7 +3,7 @@ document.getElementById('userForm').addEventListener('submit', function(event) {
     // Add form validation and submission code here
 });
 
-// Add gallery functionality code here
+// Add gallery slider functionality code here
 
 // Fetch images from Unsplash API
 fetch('https://api.unsplash.com/search/photos?query=japan&per_page=20&client_id=9ad80b14098bcead9c7de952435e937cc3723ae61084ba8e729adb642daf0251')
