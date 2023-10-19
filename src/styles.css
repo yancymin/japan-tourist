@@ -1,16 +1,23 @@
-   body {
-       font-family: Arial, sans-serif;
-   }
-   form {
-       margin-bottom: 20px;
-   }
-   #gallery {
-       display: flex;
-       flex-wrap: wrap;
-   }
-   #gallery img {
-       width: 200px;
-       height: 200px;
-       object-fit: cover;
-       margin: 10px;
-   }
+<body {
+    font-family: Arial, sans-serif;
+    color: #b22222;
+    background-color: #ffffff;
+}
+form {
+    margin-bottom: 20px;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+@media (max-width: 768px) {
+    #gallery {
+        flex-direction: column;
+    }
+}
