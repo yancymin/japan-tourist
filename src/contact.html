@@ -1,12 +1,27 @@
-   <!DOCTYPE html>
-   <html>
-   <head>
-       <title>Contact Us | Japanese Travel Agency</title>
-       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-       <script src="script.js"></script>
-   </head>
-   <body class="bg-white text-red-600">
-       <!-- Add content for 'Contact Us' page here -->
-   </body>
-   </html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us | Japanese Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body class="bg-white text-red-600">
+    <!-- Add content for 'Contact Us' page here -->
+    <h1>Contact Us</h1>
+    <p>You can reach us at info@japantravel.com or call us at 123-456-7890.</p>
+    <h2>Book Your Trip</h2>
+    <form id="bookingForm">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination">
+        <label for="dates">Dates:</label>
+        <input type="text" id="dates" name="dates">
+        <label for="package">Package:</label>
+        <select id="package" name="package">
+            <option value="group">Group Travel</option>
+            <option value="independent">Independent Travel</option>
+        </select>
+        <input type="submit" value="Book Now">
+    </form>
+</body>
+</html>

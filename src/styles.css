@@ -5,6 +5,8 @@
 }
 form {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 #gallery {
     display: flex;
@@ -20,4 +22,18 @@ form {
     #gallery {
         flex-direction: column;
     }
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+p {
+    margin-bottom: 1em;
+}
+form input, form select {
+    margin-bottom: 1em;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
