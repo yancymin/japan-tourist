@@ -2,26 +2,86 @@
 <html>
 <head>
     <title>Services | Japanese Travel Agency</title>
-    <title>服务 | 日本旅行社</title>
+    <title>旅游目的地</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="script.js"></script>
 </head>
 <body class="bg-white text-red-600">
-    <!-- Add content for 'Services' page here -->
-    <h1 class="title">Our Services</h1>
-    <h1 class="title">我们的服务</h1>
-    <p>We offer a variety of travel packages, including group travels and independent travel products. Our routes cover all the major tourist destinations in Japan.</p>
-    <p>我们提供各种旅行套餐，包括团体旅行和独立旅行产品。我们的路线覆盖日本所有主要旅游目的地。</p>
-    <img src="packages.jpg" alt="Travel Packages" class="max-w rounded">
-    <h2 class="title">Travel Packages</h2>
-    <h2 class="title">旅行套餐</h2>
-    <p>Explore our wide range of travel packages tailored to suit every traveler's needs.</p>
-    <p>探索我们为每个旅行者量身定制的各种旅行套餐。</p>
-    <img src="routes.jpg" alt="Travel Routes" class="max-w rounded">
-    <h2 class="title">Travel Routes</h2>
-    <h2 class="title">旅行路线</h2>
-    <p>Discover the beauty of Japan with our carefully planned travel routes.</p>
-    <p>通过我们精心规划的旅行路线，发现日本的美。</p>
+ <ol><li><div class="max-w-7xl mx-auto py-10 px-4">
+  <h1 class="text-2xl font-bold mb-10">旅游目的地列表</h1>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+      <img src="https://source.unsplash.com/400x250/?japan,travel,0" alt="" class="w-full h-40 object-cover">
+      <div class="p-6">
+        <h2 class="text-xl font-bold mb-2">东京</h2>
+        <p class="text-gray-700">东京是日本的首都，融合了现代化和传统文化的独特魅力。您可以参观东京塔、深入浅出的浅草寺、购物天堂原宿等。</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+      <img src="https://source.unsplash.com/400x250/?osaka,travel,1" alt="" class="w-full h-40 object-cover">
+      <div class="p-6">
+        <h2 class="text-xl font-bold mb-2">大阪</h2>
+        <p class="text-gray-700">大阪是日本的商业和文化中心之一，以其美食和历史遗迹而闻名。您可以品尝到美味的关西料理，参观大阪城和环球影城等。</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg overflow-hidden shadow-md">
+      <img src="https://source.unsplash.com/400x250/?kyoto,travel,2" alt="" class="w-full h-40 object-cover">
+      <div class="p-6">
+        <h2 class="text-xl font-bold mb-2">京都</h2>
+        <p class="text-gray-700">京都是日本保存最完整的历史古都之一，有许多古老的寺庙和庭园。您可以领略到传统的茶道文化，欣赏到美丽的樱花和红叶景色。</p>
+      </div>
+    </div>
+  </div>
+</div></li><li>```html
+<div class="max-w-7xl mx-auto py-10 px-4">
+  <div class="text-2xl font-bold mb-10">目的地详情</div>
+  <div class="flex flex-wrap">
+    <div class="w-full lg:w-1/2 xl:w-1/3">
+      <img src="https://source.unsplash.com/800x600/?japan" class="rounded-lg" alt="">
+    </div>
+    <div class="w-full lg:w-1/2 xl:w-2/3 pl-8">
+      <h2 class="text-2xl font-bold mb-4">日本</h2>
+      <p class="text-lg mb-4">日本（にほん）是位于东亚的岛国，是一个拥有悠久历史和丰富文化的国家。</p>
+      <h3 class="text-lg font-semibold mt-4 mb-2">特色景点</h3>
+      <ul class="list-disc pl-6">
+        <li>京都祗园</li>
+        <li>东京迪士尼乐园</li>
+        <li>大阪城</li>
+      </ul>
+      <h3 class="text-lg font-semibold mt-4 mb-2">交通信息</h3>
+      <p class="mb-4">您可以选择搭乘飞机前往日本的主要机场，如东京成田国际机场和大阪关西国际机场。</p>
+      <h3 class="text-lg font-semibold mt-4 mb-2">旅游攻略</h3>
+      <p>在日本旅行期间，您可以参观寺庙、品尝美食、体验温泉和购物等各种活动。</p>
+    </div>
+  </div>
+</div>
+```</li><li><div class="max-w-7xl mx-auto py-10 px-4">
+  <h2 class="text-2xl font-bold mb-10">预订信息</h2>
+  <div class="flex">
+    <form class="w-1/2">
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">姓名</label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="请输入您的姓名">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="contact">联系方式</label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="contact" type="text" placeholder="请输入您的联系方式">
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="date">出行日期</label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="date" type="date" placeholder="请选择出行日期">
+      </div>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        提交预订
+      </button>
+    </form>
+    <div class="w-1/2 pl-8 dom-select">
+      <h3 class="text-xl font-bold mb-4">联系方式</h3>
+      <p class="text-gray-700 mb-2"><i class="fa-solid fa-phone-alt fa-lg mr-2"></i>公司电话：+1234567890</p>
+      <p class="text-gray-700"><i class="fa-solid fa-envelope fa-lg mr-2"></i>公司邮箱：info@example.com</p>
+    </div>
+  </div>
+</div></li></ol>
 </body>
 </html>
